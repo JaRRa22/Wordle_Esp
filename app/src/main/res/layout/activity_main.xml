@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/fondo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fondo_juego" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gHorizontal1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gHorizontal2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gHorizontal3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gHorizontal4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gHorizontal5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gHorizontal6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gHorizontal7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gHorizontal8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gHorizontal9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gHorizontal10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gHorizontal11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gVertical0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gVertical1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gVertical2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gVertical3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gVertical4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gVertical5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gVertical6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gVertical7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gVertical8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gVertical9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gVertical10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/c1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal9"
+        app:layout_constraintEnd_toStartOf="@id/gVertical2"
+        app:layout_constraintStart_toEndOf="@id/gVertical0"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal10"/>
+
+    <TextView
+        android:id="@+id/c2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal9"
+        app:layout_constraintEnd_toStartOf="@id/gVertical4"
+        app:layout_constraintStart_toEndOf="@id/gVertical2"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal10"/>
+
+    <TextView
+        android:id="@+id/c3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal9"
+        app:layout_constraintEnd_toStartOf="@id/gVertical6"
+        app:layout_constraintStart_toEndOf="@id/gVertical4"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal10"/>
+
+    <TextView
+        android:id="@+id/c4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal9"
+        app:layout_constraintEnd_toStartOf="@id/gVertical8"
+        app:layout_constraintStart_toEndOf="@id/gVertical6"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal10"/>
+
+    <TextView
+        android:id="@+id/c5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal9"
+        app:layout_constraintEnd_toStartOf="@id/gVertical10"
+        app:layout_constraintStart_toEndOf="@id/gVertical8"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal10"/>
+
+    <TextView
+        android:id="@+id/c6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal8"
+        app:layout_constraintEnd_toStartOf="@id/gVertical2"
+        app:layout_constraintStart_toEndOf="@id/gVertical0"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal9"/>
+
+    <TextView
+        android:id="@+id/c7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal8"
+        app:layout_constraintEnd_toStartOf="@id/gVertical4"
+        app:layout_constraintStart_toEndOf="@id/gVertical2"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal9"/>
+
+    <TextView
+        android:id="@+id/c8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal8"
+        app:layout_constraintEnd_toStartOf="@id/gVertical6"
+        app:layout_constraintStart_toEndOf="@id/gVertical4"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal9"/>
+
+    <TextView
+        android:id="@+id/c9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal8"
+        app:layout_constraintEnd_toStartOf="@id/gVertical8"
+        app:layout_constraintStart_toEndOf="@id/gVertical6"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal9"/>
+
+    <TextView
+        android:id="@+id/c10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal8"
+        app:layout_constraintEnd_toStartOf="@id/gVertical10"
+        app:layout_constraintStart_toEndOf="@id/gVertical8"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal9"/>
+
+    <TextView
+        android:id="@+id/c11"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal7"
+        app:layout_constraintEnd_toStartOf="@id/gVertical2"
+        app:layout_constraintStart_toEndOf="@id/gVertical0"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal8"/>
+
+    <TextView
+        android:id="@+id/c12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal7"
+        app:layout_constraintEnd_toStartOf="@id/gVertical4"
+        app:layout_constraintStart_toEndOf="@id/gVertical2"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal8"/>
+
+    <TextView
+        android:id="@+id/c13"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal7"
+        app:layout_constraintEnd_toStartOf="@id/gVertical6"
+        app:layout_constraintStart_toEndOf="@id/gVertical4"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal8"/>
+
+    <TextView
+        android:id="@+id/c14"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal7"
+        app:layout_constraintEnd_toStartOf="@id/gVertical8"
+        app:layout_constraintStart_toEndOf="@id/gVertical6"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal8"/>
+
+    <TextView
+        android:id="@+id/c15"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal7"
+        app:layout_constraintEnd_toStartOf="@id/gVertical10"
+        app:layout_constraintStart_toEndOf="@id/gVertical8"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal8"/>
+
+    <TextView
+        android:id="@+id/c16"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal6"
+        app:layout_constraintEnd_toStartOf="@id/gVertical2"
+        app:layout_constraintStart_toEndOf="@id/gVertical0"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal7"/>
+
+    <TextView
+        android:id="@+id/c17"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal6"
+        app:layout_constraintEnd_toStartOf="@id/gVertical4"
+        app:layout_constraintStart_toEndOf="@id/gVertical2"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal7"/>
+
+    <TextView
+        android:id="@+id/c18"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal6"
+        app:layout_constraintEnd_toStartOf="@id/gVertical6"
+        app:layout_constraintStart_toEndOf="@id/gVertical4"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal7"/>
+
+    <TextView
+        android:id="@+id/c19"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal6"
+        app:layout_constraintEnd_toStartOf="@id/gVertical8"
+        app:layout_constraintStart_toEndOf="@id/gVertical6"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal7"/>
+
+    <TextView
+        android:id="@+id/c20"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal6"
+        app:layout_constraintEnd_toStartOf="@id/gVertical10"
+        app:layout_constraintStart_toEndOf="@id/gVertical8"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal7"/>
+
+    <TextView
+        android:id="@+id/c21"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal5"
+        app:layout_constraintEnd_toStartOf="@id/gVertical2"
+        app:layout_constraintStart_toEndOf="@id/gVertical0"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal6"/>
+
+    <TextView
+        android:id="@+id/c22"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal5"
+        app:layout_constraintEnd_toStartOf="@id/gVertical4"
+        app:layout_constraintStart_toEndOf="@id/gVertical2"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal6"/>
+
+    <TextView
+        android:id="@+id/c23"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal5"
+        app:layout_constraintEnd_toStartOf="@id/gVertical6"
+        app:layout_constraintStart_toEndOf="@id/gVertical4"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal6"/>
+
+    <TextView
+        android:id="@+id/c24"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal5"
+        app:layout_constraintEnd_toStartOf="@id/gVertical8"
+        app:layout_constraintStart_toEndOf="@id/gVertical6"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal6"/>
+
+    <TextView
+        android:id="@+id/c25"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal5"
+        app:layout_constraintEnd_toStartOf="@id/gVertical10"
+        app:layout_constraintStart_toEndOf="@id/gVertical8"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal6"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Q"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/q"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal4"
+        app:layout_constraintEnd_toStartOf="@id/gVertical1"
+        app:layout_constraintStart_toEndOf="@id/gVertical0"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal5"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/W"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/w"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal4"
+        app:layout_constraintEnd_toStartOf="@id/gVertical2"
+        app:layout_constraintStart_toEndOf="@id/gVertical1"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal5"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/E"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/e"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal4"
+        app:layout_constraintEnd_toStartOf="@id/gVertical3"
+        app:layout_constraintStart_toEndOf="@id/gVertical2"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal5"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/r"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/r"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal4"
+        app:layout_constraintEnd_toStartOf="@id/gVertical4"
+        app:layout_constraintStart_toEndOf="@id/gVertical3"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal5"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/T"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/t"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal4"
+        app:layout_constraintEnd_toStartOf="@id/gVertical5"
+        app:layout_constraintStart_toEndOf="@id/gVertical4"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal5"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Y"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/y"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal4"
+        app:layout_constraintEnd_toStartOf="@id/gVertical6"
+        app:layout_constraintStart_toEndOf="@id/gVertical5"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal5"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/U"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/u"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal4"
+        app:layout_constraintEnd_toStartOf="@id/gVertical7"
+        app:layout_constraintStart_toEndOf="@id/gVertical6"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal5"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/I"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/i"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal4"
+        app:layout_constraintEnd_toStartOf="@id/gVertical8"
+        app:layout_constraintStart_toEndOf="@id/gVertical7"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal5"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/O"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/o"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal4"
+        app:layout_constraintEnd_toStartOf="@id/gVertical9"
+        app:layout_constraintStart_toEndOf="@id/gVertical8"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal5"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/P"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/p"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal4"
+        app:layout_constraintEnd_toStartOf="@id/gVertical10"
+        app:layout_constraintStart_toEndOf="@id/gVertical9"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal5"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/A"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/a"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal3"
+        app:layout_constraintEnd_toStartOf="@id/gVertical1"
+        app:layout_constraintStart_toEndOf="@id/gVertical0"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal4"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/S"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/s"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal3"
+        app:layout_constraintEnd_toStartOf="@id/gVertical2"
+        app:layout_constraintStart_toEndOf="@id/gVertical1"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal4"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/D"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/d"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal3"
+        app:layout_constraintEnd_toStartOf="@id/gVertical3"
+        app:layout_constraintStart_toEndOf="@id/gVertical2"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal4"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/F"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/f"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal3"
+        app:layout_constraintEnd_toStartOf="@id/gVertical4"
+        app:layout_constraintStart_toEndOf="@id/gVertical3"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal4"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/G"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/g"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal3"
+        app:layout_constraintEnd_toStartOf="@id/gVertical5"
+        app:layout_constraintStart_toEndOf="@id/gVertical4"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal4"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/H"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/h"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal3"
+        app:layout_constraintEnd_toStartOf="@id/gVertical6"
+        app:layout_constraintStart_toEndOf="@id/gVertical5"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal4"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/J"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/j"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal3"
+        app:layout_constraintEnd_toStartOf="@id/gVertical7"
+        app:layout_constraintStart_toEndOf="@id/gVertical6"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal4"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/K"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/k"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal3"
+        app:layout_constraintEnd_toStartOf="@id/gVertical8"
+        app:layout_constraintStart_toEndOf="@id/gVertical7"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal4"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/L"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/l"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal3"
+        app:layout_constraintEnd_toStartOf="@id/gVertical9"
+        app:layout_constraintStart_toEndOf="@id/gVertical8"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal4"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/NE"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/ñ"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal3"
+        app:layout_constraintEnd_toStartOf="@id/gVertical10"
+        app:layout_constraintStart_toEndOf="@id/gVertical9"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal4"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Z"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/z"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal2"
+        app:layout_constraintEnd_toStartOf="@id/gVertical2"
+        app:layout_constraintStart_toEndOf="@id/gVertical1"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal3"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/X"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/x"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal2"
+        app:layout_constraintEnd_toStartOf="@id/gVertical3"
+        app:layout_constraintStart_toEndOf="@id/gVertical2"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal3"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/C"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/c"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal2"
+        app:layout_constraintEnd_toStartOf="@id/gVertical4"
+        app:layout_constraintStart_toEndOf="@id/gVertical3"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal3"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/V"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/v"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal2"
+        app:layout_constraintEnd_toStartOf="@id/gVertical5"
+        app:layout_constraintStart_toEndOf="@id/gVertical4"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal3"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/B"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/b"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal2"
+        app:layout_constraintEnd_toStartOf="@id/gVertical6"
+        app:layout_constraintStart_toEndOf="@id/gVertical5"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal3"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/N"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/n"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal2"
+        app:layout_constraintEnd_toStartOf="@id/gVertical7"
+        app:layout_constraintStart_toEndOf="@id/gVertical6"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal3"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/M"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/m"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal2"
+        app:layout_constraintEnd_toStartOf="@id/gVertical8"
+        app:layout_constraintStart_toEndOf="@id/gVertical7"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal3"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/borrar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/borrar"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/border_boton"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal2"
+        app:layout_constraintEnd_toStartOf="@id/gVertical10"
+        app:layout_constraintStart_toEndOf="@id/gVertical8"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal3"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submit"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/submit"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/btn_inicio"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal1"
+        app:layout_constraintEnd_toStartOf="@id/gVertical8"
+        app:layout_constraintStart_toEndOf="@id/gVertical2"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal2"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/back"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/btn_volver"
+        android:gravity="center"
+        android:text="@string/volver"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal10"
+        app:layout_constraintEnd_toStartOf="@id/gVertical2"
+        app:layout_constraintStart_toEndOf="@id/gVertical0"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal11"/>
+
+    <TextView
+        android:id="@+id/puntos"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="start|center"
+        android:textSize="18sp"
+        android:text="@string/puntos_iniciales"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal10"
+        app:layout_constraintEnd_toStartOf="@id/gVertical10"
+        app:layout_constraintStart_toEndOf="@id/gVertical8"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal11"/>
+
+    <TextView
+        android:id="@+id/ultima_palabra"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/gHorizontal10"
+        app:layout_constraintEnd_toStartOf="@id/gVertical7"
+        app:layout_constraintStart_toEndOf="@id/gVertical3"
+        app:layout_constraintTop_toBottomOf="@id/gHorizontal11"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
